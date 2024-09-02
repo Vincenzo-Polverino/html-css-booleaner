@@ -9,17 +9,25 @@ header {
     max-width: 100%;
 }
 
+
+    main, footer {
+        width: 80%;
+        margin: auto;
+       
+    }
+
+
 header img {
     height: 100px;
     margin-top: 80px;
     margin-bottom: 15px;
-    margin-left: 120px;
+    width: 40%;
+    margin-left: auto;
+
 }
 
 main {
     background-color: white;
-    margin-left: 120px;
-    margin-right: 120px;
     margin-top: 20px;
 }
 
@@ -89,8 +97,7 @@ th,td {
 
 
 footer{
-    margin-left: 120px;
-    margin-right: 120px;
+
     margin-top: 50px;
     margin-bottom: 25px;
 }
