@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+
+}
+
+
+
+header{
+    background-image: url(../img/pattern.png);
+    background-color:rgb(86, 133, 233) ;
+    max-width: 100%;
+
+
+}
+
+header img{
+    height: 100px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+}
+
+main{
+    background-color: white;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+#writed{
+    font-size: 40px;
+}
+
+#writed, #date{
+    color: gray;
+}
+
+#author{
+    color: rgb(83, 152, 255);
+}
+
+#tim_img{
+    margin-top: 30px;
+}
+
+p{
+    font-size: 25px;
+}
