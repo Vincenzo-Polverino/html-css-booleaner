@@ -1,89 +1,116 @@
-*{
+* {
     padding: 0;
     margin: 0;
- 
-
 }
 
-
-
-header{
+header {
     background-image: url(../img/pattern.png);
-    background-color:rgb(86, 133, 233) ;
+    background-color: rgb(86, 133, 233);
     max-width: 100%;
-
-
 }
 
-header img{
+header img {
     height: 100px;
     margin-top: 80px;
     margin-bottom: 15px;
     margin-left: 120px;
 }
 
-main{
+main {
     background-color: white;
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 20px;
 }
 
-h1{
+h1 {
     font-size: 80px;
 }
 
-#writed{
+#writed {
     font-size: 40px;
 }
 
-#writed, #date{
+#writed,#date {
     color: gray;
 }
 
-#author{
+#author {
     color: rgb(83, 152, 255);
+    text-decoration: none;
 }
 
-#tim_img{
+#tim_img {
     margin-top: 30px;
 }
 
-p.didascaly{
+p.didascaly {
     font-size: 25px;
 }
 
 
-.article{
+.article {
     font-size: 35px;
     margin-top: 40px;
 }
 
-ul{
+
+ul {
     margin: 50px;
 }
 
 
-
-table{
+table {
     border-collapse: collapse;
     width: 100%;
-  }
+}
 
-  th {
+
+th {
     background-color: #045aaa;
     color: white;
     width: 100px;
-  }
+}
 
-  th, td {
+
+th,td {
     text-align: left;
-  }
-  
-  #tr_colored{
+}
+
+
+#tr_colored {
     background-color: rgb(161, 204, 245);
+}
+
+
+#marked {
+    background-color: yellow;
+}
+
+
+footer{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#footer_title{
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.container {
+    position: relative;
+    color: white;
   }
 
-  #marked{
-    background-color: yellow;
-  }
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;
+}
+
