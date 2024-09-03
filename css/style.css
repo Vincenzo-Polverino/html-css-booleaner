@@ -18,9 +18,9 @@ header {
 
 
 header img {
-    height: 100px;
-    margin-top: 80px;
-    margin-bottom: 15px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     margin-left: 10%;
 
 
@@ -31,13 +31,6 @@ main {
     margin-top: 20px;
 }
 
-h1 {
-    font-size: 80px;
-}
-
-#writed {
-    font-size: 40px;
-}
 
 #writed,#date {
     color: gray;
@@ -50,16 +43,6 @@ h1 {
 
 #tim_img {
     margin-top: 30px;
-}
-
-p.didascaly {
-    font-size: 25px;
-}
-
-
-.article {
-    font-size: 35px;
-    margin-top: 40px;
 }
 
 
@@ -91,7 +74,7 @@ th,td {
 }
 
 
-#marked {
+.marked {
     background-color: yellow;
 }
 
@@ -103,9 +86,10 @@ footer{
 }
 
 #footer_title{
-    font-size: 35px;
+
     color: gray;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -118,6 +102,6 @@ footer{
     position: absolute;
     top: 8px;
     left: 16px;
-    font-size: 40px;
+
 }
 
